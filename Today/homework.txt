@@ -1,0 +1,8 @@
+======= H.W =========
+front-end mentor ==> 1 template
+theme forrest ==> 1 mini project
+
+======= Sources =========
+photo resources ==> stocksnap
+svg animation ==> lottiefile
+icon ==> iconbox

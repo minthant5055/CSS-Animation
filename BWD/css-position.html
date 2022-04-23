@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+
+        html {
+            height: 2000px;
+        }
+        .container {
+            width: 900px;
+            margin: auto;
+            height: 500px;
+            background-color: beige;
+            position: relative;
+        }
+        .one {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            color: violet;
+            position: absolute;
+            z-index: 3;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,-50%);
+        }
+        .two {
+            width: 150px;
+            height: 250px;
+            background-color: aquamarine;
+            color: blueviolet;
+            position: fixed;
+            z-index: 1;
+            top: 300px;
+            right: 50px;   
+        }
+        .three {
+            width: 200px;
+            height: 200px;
+            background-color: violet;
+            color: white;
+            position: absolute;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <!-- position ko bar mha ma yae ya tay yin static lox call tal -->
+    <div class="container">
+        <div class="one">Hello South Gya Pu One</div>
+        <div class="two">Hello South Gya Pu Two</div>
+        <div class="three">Hello South Gya Pu Three</div>
+    </div>
+</body>
+</html>

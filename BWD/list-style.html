@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Style</title>
+
+    <style>
+        ul {
+            padding: 0;
+            margin: 0 auto;
+            width: 650px;
+        }
+        
+        li {
+            list-style: none;
+            display: inline-block;
+            margin-left: 5px;
+            padding: 5px 5px;
+            width: 130px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            transition: all 0.5s;
+            cursor: pointer;
+            /* ball pal */
+        }
+        
+        li:hover, .active {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Contact</li>
+    </ul>
+</body>
+</html>

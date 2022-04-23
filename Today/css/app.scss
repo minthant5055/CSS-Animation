@@ -1,0 +1,59 @@
+// $border-radius: 35px;
+$primary: #426ae0;
+// $rounded-pill: 30px 30px;
+.rounded-corner {
+    border-radius: 20px;
+}
+
+.rounded-img {
+    border-radius: 20px 20px  0 0;
+}
+
+.hover-btn:hover {
+    background-color: #d9d9d9 !important;
+    // cursor: pointer;
+    color: #426ae0 !important;
+}
+
+// ====================================================
+
+.nft-bg {
+    background-color: #062934;
+}
+
+.nft-card-header {
+    background-image: url(../nft-preview-card-component-main/images/image-equilibrium.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nft-card-header img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nft-corner-rounded {
+    border-radius: 15px;
+}
+
+.nft-text-color {
+    color: #00FFF8;
+}
+
+// ======================================
+.sneaker-text-color {
+    color: #da7137;
+}
+
+.sneaker-bg {
+    background-color: #da7137;
+}
+
+.percent-bg {
+    background-color:rgba(218, 113, 55,0.3);
+    // opacity: 50%;
+} 
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";

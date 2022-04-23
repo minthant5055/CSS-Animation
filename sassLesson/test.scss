@@ -1,0 +1,18 @@
+@use 'a';  // this is 'a' another modules file, we can use @use ===> most of we use it for team workflow, we write css ine by one, fianlly we combine them like this   the different between @use and @import, @import can use any place of scss but @use cannot use any places only we can use at the top
+
+@mixin  mixinName {
+  background-color: #ffff;
+  color: violet; // we can use @mixin again. Mixin is group of css line and we can use again it for all lines.
+}
+ul {
+  background-color: #00ffff;
+  li {
+    background-color: #ffff00;
+    a {
+      background-color: #000fff;
+      text-decoration: none;
+    }
+    @include mixinName(); // we can reuse mixinName for group of lines
+  }
+}
+  @import 'b';  // this is 'b' another modules file, we can use @import ===> most of we use it for team workflow, we write css ine by one, fianlly we combine them like this the different between @use and @import, @import can use any place of scss but @use cannot use any places only we can use at the top

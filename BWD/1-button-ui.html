@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button UI</title>
+    <link rel="icon" href="./img/logo/logo2.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Festive&family=League+Spartan:wght@100;300&display=swap');
+        * {
+            font-family: 'League Spartan', sans-serif;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            box-sizing: border-box;
+            font-size: 1em;
+            /* font-family: sans-serif; */
+            transition: all 0.6s;
+            cursor: pointer;
+        }
+        
+        .btn-eg {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border: 1px solid black;
+           
+        }
+
+        .btn-eg:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .btn-primary {
+            background-color: #fff;
+            color: #E632FA;
+            text-decoration: none;
+            border: 1px solid #E632FA;
+        }
+
+        .btn-primary:hover {
+            background-color: #E632FA;
+            color: white;
+        }
+
+        .btn-secondary {
+            background-color: #9B22E3;
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #9B22E3;
+        }
+
+        .btn-secondary:hover {
+            background-color: #fff;
+            color: #9B22E3;
+        }
+
+        .btn:active {
+            opacity: 0.4;
+        }
+
+        .btn:hover {
+            box-shadow: 0 10px 20px 0 rgb(0 0 0 / 15%);
+            transition: all 0.4s ease 0;
+        }
+
+        .btn-border {
+            border-radius: 0 20% 0 20%;
+            /* transition: all 0.5s; */
+        }
+        .btn-border:hover {
+            border-radius: 20% 0 20% 0%;
+            transition: all 0.5s;
+        }
+
+        .btn-pill {
+            border-radius: 50px;
+        }
+
+        .btn-div {
+            display: inline-block;
+            width: 120px;
+            height: 70px;
+            text-align: center;
+            line-height: 70px;
+            transition: all 0.5s;
+            /* background-color: #000;
+            color: #fff;
+            font-size: 1em; */
+        }
+    </style>
+</head>
+<body>
+    <button class="btn-border btn btn-eg">Button Tag</button>
+    <a href="#" class="btn btn-eg">Link Button</a>
+
+    <button class="btn-border btn btn-primary">Primary Button Tag</button>
+    <a href="#" class="btn-pill btn btn-primary">Primary Link Button</a>
+
+    <button class="btn-border btn btn-secondary">Secondary Button Tag</button>
+    <a href="#" class="btn btn-secondary">Secondary Link Button</a>
+
+    <hr>
+
+    <button class="btn btn-eg">
+        <i class="fa-solid fa-house-chimney-crack"></i>
+    </button>
+
+    <hr>
+
+    <button class="btn btn-secondary">
+        <i class="fa-solid fa-gear"></i>
+        Setting
+    </button>
+
+    <button class="btn btn-primary">
+        <i class="fa-solid fa-pencil"></i>
+        Update
+    </button>
+
+
+    <hr>
+
+    <div class="btn-div btn-eg">
+        <i class="fa-solid fa-glasses"></i>
+    </div>
+    
+</body>
+</html>
